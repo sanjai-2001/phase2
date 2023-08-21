@@ -1,0 +1,26 @@
+.outer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    row-gap: 30px;
+    padding: 30px;
+    background: linear-gradient(45deg, black, transparent);
+    margin-left: 450px;
+}
+
+input{
+    width: 250px;
+}
+
+select{
+    width: 50px;
+}
+
+hr {
+    margin: 7px;
+  }
+
+  p{
+    font-weight: 700;
+    font-size: larger;
+  }

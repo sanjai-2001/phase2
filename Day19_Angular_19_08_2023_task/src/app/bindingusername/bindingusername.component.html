@@ -1,0 +1,6 @@
+<div class="outer">
+    <label >Enter your name :</label>
+    <input class="form-control" type="text" [(ngModel)]="username" style="width: 300px;" />
+    <button class="btn btn-primary" [disabled]="username == ''" (click)="onClick()" >Submit</button>
+    <p >Hi! I'm {{this.showusername}} and I like to explore new places </p>
+</div>

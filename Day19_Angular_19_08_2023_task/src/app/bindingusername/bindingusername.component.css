@@ -1,0 +1,24 @@
+.outer{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  row-gap: 30px;
+  padding: 30px;
+  background: lightblue;
+  border-radius: 30px;
+}
+button {
+  width: 100px;
+  margin-top: 2rem;
+}
+
+label {
+  opacity: 0.7;
+  text-align: initial;
+  margin-top: 2rem;
+}
+
+p {
+  text-align: initial;
+  margin-top: 2rem;
+}

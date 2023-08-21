@@ -1,0 +1,27 @@
+.alert {
+  padding: 10px;
+  border: 1px solid #5cb85c;
+  border-radius: 10px;
+  background-color: #dff0d8;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.success {
+  font-weight: bold;
+}
+
+hr {
+  margin: 7px;
+}
+
+.msg {
+  color: #5cb85c;
+  padding: 20px;
+  font-size: larger;
+}
+
+i {
+  font-size: larger;
+  margin-left: 10px;
+}
