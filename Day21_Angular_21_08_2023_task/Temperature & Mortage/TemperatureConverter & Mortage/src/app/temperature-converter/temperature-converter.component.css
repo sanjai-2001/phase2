@@ -1,0 +1,40 @@
+/* .converter-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .input-container {
+    margin-top: 10px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+   */
+   /* .alert {
+    font-weight: bold;
+  } */
+  /* Adjust the space between elements */
+.p-4 {
+    margin: 0;
+  }
+  
+  /* Center the button */
+  .btn-primary {
+    display: block;
+    margin: 0 auto;
+  }
+  .modal-backdrop.show {
+    opacity: 0.5;
+  }
+  
+  .modal {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-dialog {
+    margin-top: 10vh;
+  }
+  
+  

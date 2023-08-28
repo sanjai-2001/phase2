@@ -1,0 +1,25 @@
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="border rounded p-4 bg-light shadow-sm" style="max-width: 400px; border: 2px solid #3498db;">
+      <h2 class="text-center mb-4" style="color: #3498db;">Temperature Converter</h2>
+      <div class="mb-3">
+        <label for="temperatureInput" class="form-label">Input Temperature:</label>
+        <input type="number" class="form-control" id="temperatureInput" [(ngModel)]="inputTemperature">
+      </div>
+      <div class="mb-3">
+        <label class="form-check-label">Choose Unit:</label>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="celsiusRadio" [(ngModel)]="selectedUnit" value="Celsius">
+          <label class="form-check-label" for="celsiusRadio">Celsius</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="fahrenheitRadio" [(ngModel)]="selectedUnit" value="Fahrenheit">
+          <label class="form-check-label" for="fahrenheitRadio">Fahrenheit</label>
+        </div>
+      </div>
+      <button class="btn btn-primary d-block mx-auto" (click)="convertTemperature()" style="background-color: #3498db; border-color: #3498db;">Convert</button>
+      <div *ngIf="convertedTemperature !== null" class="mt-3 text-center">
+        <p>Converted Temperature: {{ convertedTemperature | number }} {{ selectedUnit }}</p>
+      </div>
+    </div>
+  </div>
+  
